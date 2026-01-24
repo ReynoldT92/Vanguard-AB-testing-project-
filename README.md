@@ -38,6 +38,16 @@ Based on initial analysis, the following metrics were used to evaluate success:
 * **Threshold**: A 5% increase in completion was required to justify the redesign.
 * **Result**: The observed **8.7% lift** exceeds this threshold, confirming the project is cost-effective.
 
+##  Challenges & Learnings
+### Technical Challenges
+* **Funnel Logic**: Mapping non-linear web behavior into a 5-step ranked funnel.
+* **Friction Identification**: Developing custom logic to detect and count "backtracks" (users moving backward in the process).
+* **Time Calculation**: Cleaning timestamps to measure true interaction time while excluding long periods of inactivity.
+
+### Key Learnings
+* **The Full Story**: A higher conversion rate doesn't always mean a "simpler" process; the Test UI increased success but also increased user double-checking (backtracks).
+* **Statistical Rigor**: Using a Z-test was essential to prove that our 8.7% lift was not just due to random noise.
+
 ## Recommendations
 1. **Full Rollout**: Implement the Test UI platform-wide due to the significant conversion lift.
 2. **Optimize Final Step**: Redesign the `confirm` page to reduce the high time-on-page and backtracking observed in the Test group.
