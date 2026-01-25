@@ -60,4 +60,5 @@ The success of the experiment was evaluated using the following metrics:
 ## Tools & Technologies
 * **Python**: Data cleaning and transformation (Pandas, NumPy), hypothesis testing (SciPy).
 * **Tableau**: Interactive dashboards for demographic- and behavior-based insights.
-* **Kanban (Trello)**: Project management, task tracking, and workflow organization.
+* [](https://public.tableau.com/views/AB_Test_UI_Completion_Analysis/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+* * **Kanban (Trello)**: Project management, task tracking, and workflow organization.
